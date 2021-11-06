@@ -205,6 +205,7 @@ header {
 .container1 {
     width: 75%;
     display: flex;
+    flex-direction: column;
     margin-left: 10px;
 }
 
@@ -235,13 +236,11 @@ header {
 
 .ordem {
     width: 100%;
-    margin-right: 100px;
-    display: flex;
-    justify-content: right;
     height: 30px;
 }
 
 .select {
+    margin-left: 720px;
     display: flex;
     justify-content: right;
     height: 30px;
@@ -341,6 +340,7 @@ header {
 }
 
 .caixacar {
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -381,5 +381,70 @@ header {
 }
 
 .cont2:hover {
+    cursor: pointer;
+}
+
+.livros {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.linhalivros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.caixalivro {
+    border: solid 1px transparent;
+    width: 30%;
+    height: 350px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.livroim {
+    height: 200px;
+}
+
+.caixaim {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.nmlivro {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.nmlivro:hover {
+    color: #0C3D5E;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.estrelas {
+    margin-top: 6px;
+    width: 40%;
+}
+
+.preco {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.preco:hover {
+    text-decoration: underline;
+    color: #0C3D5E;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.caixalivro:hover {
+    border: solid 1px silver;
     cursor: pointer;
 }
