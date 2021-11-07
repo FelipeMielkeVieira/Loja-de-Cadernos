@@ -448,3 +448,8 @@ header {
     border: solid 1px silver;
     cursor: pointer;
 }
+
+.tirara {
+    color: black;
+    text-decoration: none;
+}

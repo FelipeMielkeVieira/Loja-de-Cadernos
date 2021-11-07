@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color:#1e63d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.espaco {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.logototal {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cimalogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    margin-left: 102px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 29%;
+}
+
+.cimalogo:hover {
+    cursor: pointer;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 71%;
+    margin-bottom: 26px;
+    text-decoration: none;
+}
+
+.book {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+.caixap {
+    margin-left: 30px;
+    display: flex;
+    width: 600px;
+    height: 35%;
+    background-color: rgb(240, 231, 231);
+    border: solid 1px whitesmoke;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.pesquisa {
+    border: none;
+    width: 90%;
+    background-color: transparent;
+    padding: 20px;
+    outline:none;
+}
+
+.lupa {
+    margin-top: 2px;
+    border: none;
+    background-color: transparent;
+}
+
+.lupa:hover {
+    cursor: pointer;
+}
+
+.restoheader {
+    height: 40%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.esclogin {
+    margin-left: 10px;
+    color: azure;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sublinhado {
+    font-weight: 700;
+    text-decoration: none;
+    color: azure;
+}
+
+.sublinhado:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.carrinho {
+    margin-left: 55px;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+}
+
+.carrinho:hover {
+    background-color: rgb(71, 80, 204);
+    cursor: pointer;
+}
+
+.espaco {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.pglivro {
+    width: 90%;
+    height: auto;
+}
+
+.voltar {
+    margin-top: 20px;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 60px;
+}
+
+.cont1 {
+    display: flex;
+    width: 100%;
+}
+
+.pgi {
+    text-decoration: none;
+    color: rgb(71, 80, 204);
+}
+
+.pgi:hover {
+    text-decoration: underline;
+}
+
+.caixaimg {
+    width: 50%;
+}
+
+img {
+    transition: 0.5s;
+}
+
+.caixaimg:hover img {
+    transition: 0.5s;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.descricao {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tit {
+    padding-top: 10px;
+    border-top: solid 1px silver;
+    font-size: 20px;
+}
+
+.marca {
+    color: rgb(71, 80, 204);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.marca:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.estrelas {
+    width: 30%;
+    margin-left: -5px;
+}
+
+.lestrelas {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    border-bottom: solid 1px silver;
+}
+
+.textestrelas {
+    margin-top: 6px;
+    margin-left: 20px;
+    color: rgb(110, 118, 224);
+}
+
+.preco {
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.preco:hover {
+    text-decoration: underline;
+    color: #0C3D5E;
+    transition: all 0.4s;
+}
+
+.lista {
+    font-size: 16px;
+    padding: 15px;
+    border-top: solid 1px silver;
+}
+
+.caixacompra {
+    margin-left: 5%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border: silver 1px solid;
+    border-radius: 6px;
+}
+
+.estoque {
+    font-size: 18px;
+    padding: 15px;
+    color: green;
+}
+
+.qtd {
+    font-size: 18px;
+}
+
+.linhaqtd {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    border-bottom: solid 1px silver;
+}
+
+.inpqtd {
+    padding: 5px;
+    width: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.titfrete {
+    font-size: 18px;
+    color: #0C3D5E;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+.frete {
+    margin-top: 3px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.cont {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: #0C3D5E;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cont:hover {
+    cursor: pointer;
+}
+
+.cont2 {
+    margin-left: 20px;
+    margin-top: 140px;
+    width: 200px;
+    height: 30px;
+    background-color: #1e63d4;
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cont2:hover {
+    cursor: pointer;
+}
+
+.linhalivros {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.caixalivro {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px transparent;
+    width: 25%;
+    height: 350px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.livroim {
+    height: 200px;
+}
+
+.caixaim {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.nmlivro {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.nmlivro:hover {
+    color: #0C3D5E;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.caixalivro:hover {
+    border: solid 1px silver;
+    cursor: pointer;
+}
+
+.tirara {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.recom {
+    font-size: 20px;
+    margin-top: 100px;
+    padding: 10px;
+    border-bottom: solid 1px silver;
+    font-weight: bold;
+}
+
+.avaliacoes {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.caixaav {
+    width: 50%;
+    margin-top: 20px;
+    border: solid 1px silver;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.estrelas2 {
+    width: 18%;
+}
+
+.avtit {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.av {
+    margin-top: 10px;
+}
+
+.fimav {
+    margin-top: 14px;    
+    display: flex;
+    flex-direction: row;
+}
+
+.data {
+    margin-top: 5px;
+    color: silver;
+}
