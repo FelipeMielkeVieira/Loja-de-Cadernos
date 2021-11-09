@@ -438,3 +438,43 @@ img {
 .imglivro {
     height: 400px;
 }
+
+footer {
+    width: 100%;
+    background-color: #0C3D5E;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones {
+    margin-top: 30px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.insta {
+    margin-right: 14px;
+    margin-left: 18px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 22px;
+}
+
+.sema {
+    text-decoration: none;
+    color: rgb(229, 226, 226);
+    margin-right: 18px;
+}
+
+.sema:hover {
+    text-decoration: underline;
+}
+
+.texto {
+    color: white;
+}
