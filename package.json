@@ -1,0 +1,22 @@
+{
+  "name": "loja-de-cadernos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeMielkeVieira/Loja-de-Cadernos.git"
+  },
+  "author": "Felipe Mielke Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeMielkeVieira/Loja-de-Cadernos/issues"
+  },
+  "homepage": "https://github.com/FelipeMielkeVieira/Loja-de-Cadernos#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
